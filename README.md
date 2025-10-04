@@ -26,8 +26,8 @@ What specific types of ASR errors cause the most problems for topic modeling?
 ---
 
 ## 🔗 Links
-- Kaggle Dataset: [here](https://www.kaggle.com/datasets/borismarjanovic/price-volume-data-for-all-us-stocks-etfs)  
-- GitHub Repository: [MIT805-big-data-stock-analysis](https://github.com/18069682/MIT805-big-data-stock-analysis)  
+- Kaggle Dataset: [here](https://commonvoice.mozilla.org/en/datasets)  
+- GitHub Repository: [MIT805-big-data-stock-analysis](https://github.com/18069682/Automatic-Speech-Recognition-ASR-and-Topic-Modeling-for-African-Languages)
 
 ---
 
