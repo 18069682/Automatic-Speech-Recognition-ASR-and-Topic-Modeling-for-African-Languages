@@ -5,46 +5,64 @@
 ![Status](https://img.shields.io/badge/Assignment-Completed-brightgreen)
 
 
-This repository contains a research project implementing Automatic Speech Recognition (ASR) for Xitsonga podcast content using OpenAI's Whisper model and analyzing the transcription quality through topic modeling techniques.
+This repository includes a research project on Automatic Speech Recognition (ASR) within Xitsonga podcast data in addition to Word Error Rate assessment through topic modeling.
 
-**Author:** Muphulusi Dziwhani (u18069682)  
-**Institution:** University of Pretoria  
-**Course:** COS 802 Research Project  
+Author Credentials
 
-## 📖 Project Overview
+Muphulusi Dziwhani (u18069682)
+University of Pretoria
+COS 802 Research Project Module
 
-This project addresses the digital divide for African languages by developing an ASR pipeline for Xitsonga, a low-resource South African language with approximately 4.5 million speakers. Using OpenAI's Whisper model implemented with TensorFlow and Librosa, we process 24 Nalibali Xitsonga podcast episodes and evaluate transcription quality through Word Error Rate analysis.
+📖 About This Project
 
-## 🎯 Research Questions
+The objective of this project is to make headway towards bridging the digital gap within African Languages through an ASR pipeline for Xitsonga, a low-resource language in South Africa boasting 4.5 million native speakers. This research involves OpenAI's Whisper model using TensorFlow and Librosa on 24 Nalibali Xitsonga episodes alongside Word Error Rate for transcription accuracy assessment.
 
-- How accurately can the Whisper model transcribe Xitsonga speech from real-world podcast data?
-- What Word Error Rate can be achieved on Xitsonga content using modern ASR approaches?
-- How effectively does the model handle Xitsonga-specific linguistic features like click consonants?
-- What preprocessing pipeline is most effective for Xitsonga audio content?
-- What are the practical implementation challenges for African language ASR?
+🎯 Research Questions
 
-## 🛠️ Technical Implementation
+To what accuracy is Whisper able to accommodate natural data podcast speech in Xitsonga and transcribe?
 
-### ASR System
-- **Model:** OpenAI Whisper-base (74M parameters)
-- **Framework:** TensorFlow with Hugging Face Transformers
-- **Audio Processing:** Librosa for loading and preprocessing
-- **Evaluation:** jiwer library for Word Error Rate calculation
+What is the Word Error Rate for such Africa language data through existing models?
 
-### Key Features
-- Batch processing of 24 Xitsonga podcast episodes
-- Word Error Rate analysis with manual validation
-- Linguistic analysis of Xitsonga-specific features
-- Complete reproducible pipeline
+To what accuracy is transcription accurate in terms of language unique features such as click consonants?
 
-## 📊 Results
+What is the most effective preprocessing pipeline for Xitsonga relative audio?
 
-- **Word Error Rate:** 28.7% on evaluated Xitsonga content
-- **Processing Success:** 100% (24/24 files processed)
-- **Click Consonant Accuracy:** ~85% (manual evaluation)
-- **Average Processing Time:** 45 seconds per file
+What are the ASR implementation challenges for African languages?
 
-## 🗂️ Project Structure
+🛠️ Implementation of the Technical Component
+
+ASR solution
+
+Model: OpenAI Whisper-base (74M parameters)
+
+Platform: Hugging Face Transformers
+
+Audio Preprocessing: Librosa
+
+Quantitative metrics: jiwer library
+
+Advantages
+
+24 files batched simultaneously
+
+Word Error Rate assessment and corresponding analysis (compared to manual filings)
+
+Linguistic assessment for click consonants
+
+Entire process replicable
+
+📊 Results
+
+Word Error Rate Obtained: 28.7% across WHISPER tested Xitsonga relative files.
+
+Processing Effective Rate: 100% (24/24 processed without issue)
+
+Click Consonants Effective Rate: ~85% (manually assessed)
+
+Processing Speed: 45 seconds per file. Time to process 24 files.
+
+🗂️ Folder Structure
+
 
 ## 🔗 Links
 - Kaggle Dataset: [here](https://www.kaggle.com/datasets/muphulusi1234/cos802-project)  
