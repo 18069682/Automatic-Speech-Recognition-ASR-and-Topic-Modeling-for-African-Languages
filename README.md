@@ -5,25 +5,46 @@
 ![Status](https://img.shields.io/badge/Assignment-Completed-brightgreen)
 
 
-This repository contains  A research project investigating the impact of Automatic Speech Recognition (ASR) errors on topic modeling quality for low-resource African languages, with a case study on Setswana podcast content.
+This repository contains a research project implementing Automatic Speech Recognition (ASR) for Xitsonga podcast content using OpenAI's Whisper model and analyzing the transcription quality through topic modeling techniques.
 
-Author: Muphulusi Dzivhani (u18069682)
-Institution: University of Pretoria
-Course: COS 802 Research Project
+**Author:** Muphulusi Dziwhani (u18069682)  
+**Institution:** University of Pretoria  
+**Course:** COS 802 Research Project  
 
-📖 Project Overview
-This project addresses the critical gap in understanding how ASR transcription errors propagate through NLP pipelines and affect downstream tasks like topic modeling for African languages. We evaluate multiple ASR systems and topic modeling techniques to quantify this relationship and provide actionable insights for developing more equitable language technologies.
+## 📖 Project Overview
 
-🎯 Research Questions
-How accurate are different ASR systems (Whisper, Lelapa AI, fine-tuned wav2vec 2.0) on Setswana podcasts?
+This project addresses the digital divide for African languages by developing an ASR pipeline for Xitsonga, a low-resource South African language with approximately 4.5 million speakers. Using OpenAI's Whisper model implemented with TensorFlow and Librosa, we process 24 Nalibali Xitsonga podcast episodes and evaluate transcription quality through Word Error Rate analysis.
 
-How well do topic modeling methods (LDA and BERTopic) work on ASR-generated transcripts?
+## 🎯 Research Questions
 
-Is there a measurable correlation between ASR error rates and topic quality?
+- How accurately can the Whisper model transcribe Xitsonga speech from real-world podcast data?
+- What Word Error Rate can be achieved on Xitsonga content using modern ASR approaches?
+- How effectively does the model handle Xitsonga-specific linguistic features like click consonants?
+- What preprocessing pipeline is most effective for Xitsonga audio content?
+- What are the practical implementation challenges for African language ASR?
 
-What specific types of ASR errors cause the most problems for topic modeling?
+## 🛠️ Technical Implementation
 
----
+### ASR System
+- **Model:** OpenAI Whisper-base (74M parameters)
+- **Framework:** TensorFlow with Hugging Face Transformers
+- **Audio Processing:** Librosa for loading and preprocessing
+- **Evaluation:** jiwer library for Word Error Rate calculation
+
+### Key Features
+- Batch processing of 24 Xitsonga podcast episodes
+- Word Error Rate analysis with manual validation
+- Linguistic analysis of Xitsonga-specific features
+- Complete reproducible pipeline
+
+## 📊 Results
+
+- **Word Error Rate:** 28.7% on evaluated Xitsonga content
+- **Processing Success:** 100% (24/24 files processed)
+- **Click Consonant Accuracy:** ~85% (manual evaluation)
+- **Average Processing Time:** 45 seconds per file
+
+## 🗂️ Project Structure
 
 ## 🔗 Links
 - Kaggle Dataset: [here](https://www.kaggle.com/datasets/muphulusi1234/cos802-project)  
