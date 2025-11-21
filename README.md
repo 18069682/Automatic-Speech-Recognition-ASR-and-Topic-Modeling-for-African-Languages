@@ -13,11 +13,11 @@ Muphulusi Dziwhani (u18069682)
 University of Pretoria
 COS 802 Research Project Module
 
-#📖 About This Project
+📖 About This Project
 
 The objective of this project is to make headway towards bridging the digital gap within African Languages through an ASR pipeline for Xitsonga, a low-resource language in South Africa boasting 4.5 million native speakers. This research involves OpenAI's Whisper model using TensorFlow and Librosa on 24 Nalibali Xitsonga episodes alongside Word Error Rate for transcription accuracy assessment.
 
-#🎯 Research Questions
+🎯 Research Questions
 
 To what accuracy is Whisper able to accommodate natural data podcast speech in Xitsonga and transcribe?
 
@@ -29,7 +29,7 @@ What is the most effective preprocessing pipeline for Xitsonga relative audio?
 
 What are the ASR implementation challenges for African languages?
 
-#🛠️ Implementation of the Technical Component
+🛠️ Implementation of the Technical Component
 
 ASR solution
 
@@ -51,7 +51,7 @@ Linguistic assessment for click consonants
 
 Entire process replicable
 
-#📊 Results
+📊 Results
 
 Word Error Rate Obtained: 28.7% across WHISPER tested Xitsonga relative files.
 
