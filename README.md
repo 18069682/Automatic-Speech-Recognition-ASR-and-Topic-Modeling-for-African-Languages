@@ -79,4 +79,4 @@ The objective of this project is to bridge the digital gap for African Languages
 - Performance evaluation with 85.3% accuracy
 - Visualizations and analysis charts
 
-## 🗂️ Project Structure
+
