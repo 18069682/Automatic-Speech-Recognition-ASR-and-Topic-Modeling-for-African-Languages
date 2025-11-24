@@ -8,7 +8,7 @@
 This repository includes a research project on Automatic Speech Recognition (ASR) for Xitsonga podcast data, achieving **85.3% accuracy** with comprehensive Word Error Rate assessment and linguistic analysis.
 
 ## 👨‍🎓 Author Credentials
-**Muphulusi Dziwhani (u18069682)**  
+**Muphulusi Dzivhani (u18069682)**  
 University of Pretoria  
 COS 802 Research Project Module
 
