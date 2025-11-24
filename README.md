@@ -70,4 +70,6 @@ The objective of this project is to bridge the digital gap for African Languages
 - Performance evaluation with 85.3% accuracy
 - Visualizations and analysis charts
 
-
+-Main Dataset: [COS802 Project](https://www.kaggle.com/datasets/muphulusi1234/cos802-project)
+   - Model Dataset: [ASRF Xitsonga Model](https://www.kaggle.com/datasets/muphulusi1234/cos802-project?select=ASR+Xitsonga+model)
+   - Audio Data: [Xitsonga Podcasts](https://www.kaggle.com/datasets/muphulusi1234/cos802-project?select=xitsonga+podcast+data)
