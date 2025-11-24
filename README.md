@@ -64,8 +64,8 @@ The objective of this project is to bridge the digital gap for African Languages
 
 ### Option 2: Manual Upload (If Download Fails)
 1. **Download datasets** from:
-   - Main Dataset: [COS802 Project](https://www.kaggle.com/datasets/muphulusi1234/cos802-project)
-   - Audio Data: [Xitsonga Podcasts](https://www.kaggle.com/datasets/muphulusi1234/xitsonga-podcast-data)
+   - Model Dataset: [ASRF Xitsonga Model](https://www.kaggle.com/datasets/muphulusi1234/cos802-project?select=ASR+Xitsonga+model)
+   - Audio Data: [Xitsonga Podcasts](https://www.kaggle.com/datasets/muphulusi1234/cos802-project?select=xitsonga+podcast+data)
 
 2. **Run the notebook** and use **Cell 2b** (Manual Upload) instead of Cell 2
 3. **Upload the zip files** when prompted
