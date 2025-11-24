@@ -43,7 +43,7 @@ Quantitative metrics: jiwer library
 
 Advantages
 
-24 files batched simultaneously
+24 files initially batched simultaneously then a total of 117  were processed
 
 Word Error Rate assessment and corresponding analysis (compared to manual filings)
 
